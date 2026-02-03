@@ -1,0 +1,44 @@
+@use '../utilities/variables'  as *;
+
+/* _ _ Header  _ _ */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;;
+    margin: 10,11px;
+}
+
+
+.fondo-nav .nav-link {
+    background-color: $color-fondo;
+    border-radius: 5px;
+    padding: 0.5px 0.5px;
+    margin: 05px;
+}
+
+.fondo-nav .nav-link {
+    background-color: $color-fondo;
+    border-radius: 5px;
+    padding: 0.5px 0.5px;
+    margin: 01px;
+
+}
+
+.fondo-nav a:hover{
+    background-color: aqua;
+    color: red;
+}
+
+.fondo-nav a:active{
+    box-shadow: 1px 1px 2px black;
+}
+
+div iframe {
+    border-radius: 10px;
+}
