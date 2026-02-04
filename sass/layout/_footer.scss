@@ -1,6 +1,5 @@
-@use '../utilities/variables'  as *;
-
-/* _ _ Footer _ _ */
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
 
 footer ul {
     list-style: none;
@@ -16,15 +15,15 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
-    background-color: $footer-fondo;
+    background-color: rgb(173, 172, 172);
     gap: 25px;
     border-radius: 10px;
     flex-wrap: wrap; 
+        
 }
 
 footer section {
-    max-width: 300px;
-    flex: 1 1 200px; 
+    @include card;
 }
 
 footer h3 {

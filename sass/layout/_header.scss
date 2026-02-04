@@ -1,6 +1,6 @@
-@use '../utilities/variables'  as *;
+@use '../utilities/variables' as *;
 
-/* _ _ Header  _ _ */
+
 header{
     display: flex;
     justify-content: space-evenly;
@@ -11,19 +11,18 @@ header{
 header img{
     width: 150px;
     height: 150px;;
-    margin: 10,11px;
-}
-
-
+    margin: 10,11px; 
+    }
 .fondo-nav .nav-link {
-    background-color: $color-fondo;
+    background-color:$color-fondo;
     border-radius: 5px;
     padding: 0.5px 0.5px;
     margin: 05px;
 }
 
+
 .fondo-nav .nav-link {
-    background-color: $color-fondo;
+    background-color:$color-fondo;
     border-radius: 5px;
     padding: 0.5px 0.5px;
     margin: 01px;

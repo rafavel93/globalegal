@@ -1,13 +1,8 @@
-@use '../utilities/variables'  as *;
+@use '../utilities/variables' as *;
 
-.noticias h2{
+.formulario{
     background-color:$color-fondo;
-    color: azure;
-    border-radius: 5px;
-}
-
-.noticias h3{
-    background-color: $color-fondo;
-    color: azure;
-    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
 }
