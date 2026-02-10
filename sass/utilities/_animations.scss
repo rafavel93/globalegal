@@ -22,9 +22,7 @@
 
 @keyframes pibes{
     from {
-        filter: grayscale(1); 
-        transition: scale 0,5;
-
+        filter: grayscale(1);
     }
     to{filter: grayscale(0);
     transform: scale(1);

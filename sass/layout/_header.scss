@@ -11,14 +11,9 @@ header{
 header img{
     width: 150px;
     height: 150px;;
-    margin: 10,11px; 
+    margin: 10px; 
     }
-.fondo-nav .nav-link {
-    background-color:$color-fondo;
-    border-radius: 5px;
-    padding: 0.5px 0.5px;
-    margin: 05px;
-}
+
 
 
 .fondo-nav .nav-link {
@@ -30,8 +25,8 @@ header img{
 }
 
 .fondo-nav a:hover{
-    background-color: aqua;
-    color: red;
+    background-color: rgb(8, 1, 7);
+    color: rgb(7, 220, 244);
 }
 
 .fondo-nav a:active{
